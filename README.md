@@ -682,7 +682,7 @@
     ![alt text](image-19.png)
 
     - Smart commit mode가 활성화 안되면 단순 SELECT 쿼리만 실행해도 트랜잭션이 걸림
-    - 불편함을 없애기 위해서 Smart commit mode를 활성화.
+    - 불편함을 없애기 위해서 Smart commit mode를 활성화, 사용할 것
 
 #### 트랜잭션 쿼리
 
