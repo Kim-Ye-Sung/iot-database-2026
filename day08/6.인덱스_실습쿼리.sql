@@ -53,3 +53,5 @@ CREATE INDEX idx_orders_customer_date ON orders_big(order_date DESC);
 
 -- 두 인덱스 제거 후 복합 인덱스 추가
 CREATE INDEX idx_orders_customer_id_and_order_date ON orders_big(customer_id, order_date);
+
+CREATE INDEX idx_orders_city_and_amount ON orders_big(city, amount);
